@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Monster Hunter World</title>
+    <link rel="icon" type="icon/png" href="https://ih1.redbubble.net/image.508195625.5647/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- Imagenes para agregar al fondo -->
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.svg" class="shape square" alt="" />
+          <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.svg"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.svg"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.svg" class="shape triangle" alt="" />
+          <img src="./img/shapes/circles.svg" class="circles" alt="" />
+          <img src="./img/shapes/points1.svg" class="points points1" alt="" />
+        </div>
+
+        <!-- Barra de navegación principal -->
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html">M<span>H</span>W</a>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#trailers">Trailers</a>
+                </li>
+                <li>
+                  <a href="#weapons">Armas</a>
+                </li>
+                <li>
+                  <a href="#reviews">Reseñas</a>
+                </li>
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/582010/Monster_Hunter_World/"
+                    target="_blank"
+                    class="active"
+                    >Compralo</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Menu hamburguesa para agregar en movil -->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Contenido para el header -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <!-- Titulo principal -->
+              <h1 class="header-title">Monster <span>Hunter </span>World</h1>
+              <p class="text">
+                ¡Bienvenido a un nuevo mundo! En Monster Hunter: 
+                World, la penúltima entrega de la serie, puedes disfrutar de la mejor experiencia de caza, 
+                usando todo lo que tienes a tu disposición para cazar monstruos en un 
+                nuevo mundo repleto de sorpresas y emoción.
+              </p>
+              <!-- Boton de Comprar el juego -->
+              <a download href="#" target="_blank">
+                <button class="btn">Comprar</button>
+              </a>
+            </div>
+            <!-- Imagen principal para el header -->
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.svg"
+                class="points points2"
+                alt=""
+              />
+              <img src="https://gaming-cdn.com/images/products/5858/orig-fallback-v1/monster-hunter-world-pc-juego-steam-cover.jpg?v=1651505652" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Sección de trailers -->
+
+      <section class="trailers section" id="trailers">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Trailers del juego">Trailers</h3>
+            <p class="text">
+              Disfruta viendo estos trailers
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="Global">
+                <div class="card-content z-index">
+                  <img src="https://www.vhv.rs/dpng/d/420-4201274_transparent-monster-hunter-logo-png-monster-hunter-world.png" class="icon" alt="" />
+                  <h3 class="title-sm">Anuncio Global</h3>
+                  <p class="text">
+                    Disfruta viendo el trailer de,
+                    anuncio global
+                  </p>
+                  <a href="https://www.youtube.com/watch?v=Ro6r15wzp2o" class="btn small">Anuncio global</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Collab">
+                <div class="card-content z-index">
+                  <img src="https://www.vhv.rs/dpng/d/420-4201274_transparent-monster-hunter-logo-png-monster-hunter-world.png" class="icon" alt="" />
+                  <h3 class="title-sm">Descubre esta curiosa colaboración</h3>
+                  <p class="text">
+                    Disfruta de una colaboración peculiar,
+                    Monster hunter World x The Witcher 3: Wild Hunt 
+                  </p>
+                  <a href="https://www.youtube.com/watch?v=FHsXDgZV12k" class="btn small">Colaboración</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="DLC">
+                <div class="card-content z-index">
+                  <img src="https://i.pinimg.com/originals/7e/e5/57/7ee557f7e3e0675008d343bd8323ed4d.png" class="icon" alt="" />
+                  <h3 class="title-sm">Monster Hunter World Iceborne</h3>
+                  <p class="text">
+                    Descubre Monster Hunter World Iceborne que trae una nueva historia y nuevos mounstros para enfrentar
+                  </p>
+                  <a href="https://www.youtube.com/watch?v=q4AoVUamhxo" class="btn small">Descubre Iceborne</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de armas -->
+
+      <section class="weapons section" id="weapons">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.svg" class="shape square" alt="" />
+            <img src="./img/shapes/wave.svg" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.svg"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Descubre las Armas">Armas</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter button-group">
+              <button class="filter-btn active" data-filter="*">Todo</button>
+              <button class="filter-btn" data-filter=".short distance">Corta Distancía</button>
+              <button class="filter-btn" data-filter=".middle distance">Media Distancía</button>
+              <button class="filter-btn" data-filter=".long distance">Larga Distancía</button>
+              <button class="filter-btn" data-filter=".Support">Soporte</button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item long-sword">
+                <div class="gallery-image">
+                  <img src="https://game.capcom.com/manual/MHW/img/page/81_3_1.jpg?t=202007090000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Espada Larga</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Great Sword">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/81_2_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Gran Espada</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Sword & Shield">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/81_4_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Espada & Escudo</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Dual Blades">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/81_5_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Espadas Dobles</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Hammer">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/81_6_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Martillo</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Hunting Horn">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/81_7_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Cornamusa</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Light Bowgun">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/91_2_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Ballesta ligera</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Heavy Bowgun">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/91_3_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Ballesta Pesada</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item Bow">
+                <div class="gallery-image">
+                  <img src="http://game.capcom.com/manual/MHW_PC/img/page/91_4_1.jpg?t=20200709000000" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Arco</h3>
+                      <h5>Ver gameplay</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">Mas proyectos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección reseñas -->
+
+
+      <section class="reviews section" id="reviews">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Qué dicen los usuarios">
+              Reseñas
+            </h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Este juego me cambió la vida. La simple sensación de 
+                      derrotar a Fatalis solo mientras suena Proof of a Hero 
+                      hace que valga la pena totalmente comprarlo.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">【Kainé】</h3>
+                      <h5 class="review-job">Jugador de steam</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      tenia el juego para play y cuando me pase a pc me lo 
+                      compre sin dudar si exprimes el juego al maximo tienes 
+                      cerca de 200 horas de juego y si vas a por el 100% 400 
+                      casi muy recomendable.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">pabz2003</h3>
+                      <h5 class="review-job">Jugador de steam</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Te puedes hacer una barbacoa mientra el resto de tu 
+                      equipo se dan piñazos contra lagartijas gigantes...
+                      Ta' bueno
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">sabbath0413</h3>
+                      <h5 class="review-job">Jugador de steam</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Es una experiencia increíble para toda persona que le 
+                      encante Monster Hunter debe jugar
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">jesuspokemon16</h3>
+                      <h5 class="review-job">Jugador de steam</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-nav swiper-button-prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="review-nav swiper-button-next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="https://www.gamerfocus.co/wp-content/uploads/2020/01/rajang_pulgar_arriba.jpg" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Sección pie de página -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Una pagina para dar a conocer este
+              grandioso juego.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#Trailers">Trailers</a>
+              </li>
+              <li>
+                <a href="#Weapons">Armas</a>
+              </li>
+              <li>
+                <a href="#Reviews">Reseñas</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Contenido</h3>
+            <ul>
+              <li>
+                <a href="#">Trailers</a>
+              </li>
+              <li>
+                <a href="#">Armas</a>
+              </li>
+              <li>
+                <a href="#">Reseñas</a>
+              </li>
+              <li>
+                <a href="#">Mounstros</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Deja tu reseña</h3>
+            <p class="text">
+              Nos gustaria leer tu experiencia
+              en este juego
+            </p>
+            <div class="footer-input-wrap">
+              <input type="review" class="footer-input" placeholder="review" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 Todos los derechos reservados | Hecho por
+              <span class="split-text" data-text="FORUM"
+                ><a href="#"> Johan Kerry Lozano Ruiz </a></span
+              >
+            </p>
+          </div>
+
+          <div class="followthem-wrap">
+            <div class="followthem">
+              <h3>Síguelos</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
